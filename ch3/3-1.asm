@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .586							; directive - recognize 80x86 bit operands
 .MODEL FLAT, stdcall					; directive - generate code for flat memory model execution
 .STACK 4096						; directive - reserve 4096-byte stack
@@ -17,6 +18,7 @@ main PROC						; marks the beginning of a procedure
   mov eax, 0						; exit with return code 0
   INVOKE ExitProcess, eax
   ret
-main ENDP						; marks the end of the procedure
 
-END main						; end the procedure
+main ENDP								; marks the end of the procedure
+
+END main								; end the procedure
